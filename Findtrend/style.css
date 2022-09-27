@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'effra_trial';
+  src: url('./src/fonts/effra_trial_bd-webfont.woff2') format('woff2'),
+    url('./src/fonts/effra_trial_bd-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'effra_trial';
+  src: url('./src/fonts/effra_trial_blk-webfont.woff2') format('woff2'),
+    url('./src/fonts/effra_trial_blk-webfont.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+
+}
+
+
+
+
+
+
+@font-face {
+  font-family: 'effra_trial';
+  src: url('./src/fonts/effra_trial_md-webfont.woff2') format('woff2'),
+    url('./src/fonts/effra_trial_md-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'effra_trial';
+  src: url('./src/fonts/effra_trial_rg-webfont.woff2') format('woff2'),
+    url('./src/fonts/effra_trial_rg-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'effra_trial';
+  src: url('./src/fonts/effra_trial_xbd-webfont.woff2') format('woff2'),
+    url('./src/fonts/effra_trial_xbd-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+
+}
