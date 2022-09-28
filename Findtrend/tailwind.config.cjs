@@ -16,8 +16,8 @@ module.exports = {
         "grey-1": "#FFFDFC",
         "grey-2": "#ADADAD",
         "grey-3": "#F5F5F5",
-        "grey-4": "#8B8B8B",
-      },
+        "grey-4": "#ADADAD",
+        "grey-5": "#F1F1F1",      },
       backgroundImage: {
         'bg': "url('./src/images/bg.png')",
       },
@@ -25,6 +25,7 @@ module.exports = {
         'text': '18rem',
         'larger-text': '38rem',
         'medium-text': '28rem',
+        'md-text': '40rem',
         'desktop-screen': '1440px',
     },
     },
