@@ -5,7 +5,7 @@
   font-family: 'effra_trial';
   src: url('./src/fonts/effra_trial_bd-webfont.woff2') format('woff2'),
     url('./src/fonts/effra_trial_bd-webfont.woff') format('woff');
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
 
 }
@@ -17,7 +17,7 @@
   font-family: 'effra_trial';
   src: url('./src/fonts/effra_trial_blk-webfont.woff2') format('woff2'),
     url('./src/fonts/effra_trial_blk-webfont.woff') format('woff');
-  font-weight: 800;
+  font-weight: 900;
   font-style: normal;
 
 }
@@ -55,7 +55,7 @@
   font-family: 'effra_trial';
   src: url('./src/fonts/effra_trial_xbd-webfont.woff2') format('woff2'),
     url('./src/fonts/effra_trial_xbd-webfont.woff') format('woff');
-  font-weight: 700;
+  font-weight: 800;
   font-style: normal;
 
 }
