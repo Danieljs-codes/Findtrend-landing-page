@@ -309,13 +309,26 @@
       </div>
     </section>
     <section class="px-6 bg-black">
-      <h2 class="font-bold text-4xl text-center lg:text-6xl md:text-5xl text-white pt-20">
+      <h2
+        class="font-bold text-4xl text-center lg:text-6xl md:text-5xl text-white pt-20 pb-12"
+      >
         Get your best deal
       </h2>
-      <div class="flex justify-center items-center gap-x-6 relative">
-        <img class="absolute -top-2 right-64" src="./src/images/Ads.svg" alt="">
+      <div
+        class="flex justify-center items-center gap-x-6 lg:gap-x-8 relative pb-20"
+      >
+        <img
+          class="absolute hidden md:block md:-top-10 md:right-[20%] lg:right-[25%]"
+          src="./src/images/Ads.svg"
+          alt=""
+        />
+        <img
+          class="md:hidden top-10 right-[30%] absolute"
+          src="./src/images/Ads Mobile.svg"
+          alt=""
+        />
         <p class="text-2xl text-white">Monthly</p>
-        <div class="p-8 flex items-center justify-center">
+        <div class="justify-center items-center">
           <button
             type="button"
             @click="on = !on"
@@ -333,7 +346,66 @@
             ></span>
           </button>
         </div>
-        <p class="text-2xl text-grey-3">Yearly</p>
+        <p class="text-2xl text-grey-4">Yearly</p>
+      </div>
+      <div class="grid grid-cols-1 grid-rows-3 gap-y-6 lg:grid-cols-3 lg:grid-rows-1">
+        <div class="bg-white p-7 text-black rounded-2xl">
+          <h2 class="font-semibold text-4xl pb-3">Personal</h2>
+          <p class="font-regular text-lg pb-6">Special first packet for all</p>
+          <hr class="pb-8" />
+          <div class="pb-8">
+            <span class="font-semibold text-6xl">8$</span>
+            <span class="text-xl font-regular"> /Month</span>
+          </div>
+          <ul class="text-xl list-inside list-s pb-40">
+            <li class="mb-5">Up to 5 page each group</li>
+            <li class="mb-5">Up to 10 group page</li>
+            <li>5 Days group page saved</li>
+          </ul>
+          <a
+            class="w-full text-xl font-bold py-4 bg-primary-green text-center inline-block rounded-full"
+            href=""
+            >Start Free Trial</a
+          >
+        </div>
+        <div class="bg-primary-green p-7 text-black rounded-2xl">
+          <h2 class="font-semibold text-4xl pb-3">Regular</h2>
+          <p class="font-regular text-lg pb-6">Recommended for Personal Pro</p>
+          <hr class="pb-8" />
+          <div class="pb-8">
+            <span class="font-semibold text-6xl">20$</span>
+            <span class="text-xl font-regular"> /Month</span>
+          </div>
+          <ul class="text-xl list-inside list-s pb-40">
+            <li class="mb-5">Up to 15 page each group</li>
+            <li class="mb-5">Up to 20 group page</li>
+            <li>5 Days group page saved</li>
+          </ul>
+          <a
+            class="w-full text-xl font-bold py-4 bg-black text-white text-center inline-block rounded-full"
+            href=""
+            >Start Free Trial</a
+          >
+        </div>
+        <div class="bg-white p-7 text-black rounded-2xl">
+          <h2 class="font-semibold text-4xl pb-3">Regular</h2>
+          <p class="font-regular text-lg pb-6">Recommended for Personal Pro</p>
+          <hr class="pb-8" />
+          <div class="pb-8">
+            <span class="font-semibold text-6xl">48$</span>
+            <span class="text-xl font-regular"> /Month</span>
+          </div>
+          <ul class="text-xl list-inside list-s pb-40">
+            <li class="mb-5">Up to 15 page each group</li>
+            <li class="mb-5">Up to 20 group page</li>
+            <li>5 Days group page saved</li>
+          </ul>
+          <a
+            class="w-full text-xl font-bold py-4 bg-primary-green text-black text-center inline-block rounded-full"
+            href=""
+            >Start Free Trial</a
+          >
+        </div>
       </div>
     </section>
 

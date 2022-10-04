@@ -59,3 +59,7 @@
   font-style: normal;
 
 }
+
+.list-s {
+  list-style-image: url(./src/images/Tick.svg);
+}
